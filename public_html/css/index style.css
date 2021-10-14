@@ -1,0 +1,235 @@
+
+body {
+    font-family: 'overpass', sans-serif; 
+    margin: 0;  
+    font-size: 100%; 
+    text-align: center;
+    
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+header {
+    align-items: center;
+    background:black;
+    text-align: center;
+}
+header h1 {
+    font-family: 'overpass', sans-serif;
+    font-size: 400%;
+    font-weight: lighter;
+    color: whitesmoke;
+    text-align: center;
+}
+nav {
+    background-color: #CBC8C8;
+    border-bottom: solid darkgray 1px;
+    border-top: solid darkgrey 1px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+} 
+nav p {
+    text-align: center;
+    flex-basis: 110px;
+    flex-grow: 1;
+    align-items: center;
+}        
+nav a { 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+nav a:hover {
+    color: #DEA729;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #DEA729;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #DEA729;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+footer{ 
+    background-color:darkgray;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: solid darkgray 1px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #DEA729;
+}
+h1,h2 {
+    font-family: "overpass", sans-serif;
+    color: white;
+    font-size: xxx-large;
+}
+.main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%; 
+    background-color: #CBC8C8;
+    color: #CBC8C8;
+    width: 100%;  
+    display: inline-block;
+    
+}
+.yum{
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.wrap {
+    float: right;
+}
+.caption {
+    font-style: italic;
+    font-size: small;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: xx-large;
+    color: white;
+    line-height: 100%;
+    
+}  
+
+h4 { 
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    color: white;
+}
+main a {
+    color: #CBC8C8;
+    background-color:darkgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover {
+    color: #DEA729;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  color: white;
+  line-height: 5px;
+}
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size:  medium;
+  color: white;
+}
+h7 {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  color: white;
+} 
+h6 a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+h6 a:hover {
+  color: #DEA729;
+}
+h4 a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+h4 a:hover {
+  color: #DEA729;
+}
